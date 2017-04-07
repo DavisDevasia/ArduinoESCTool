@@ -15,6 +15,7 @@ HOWTO:
 4. Switch ON the power to Arduino
 5. Immediately after or along with the above step, switch ON the power to ESCs.
 6. Watch the system while it does the following:
+
       Generate PWM signals on all pins of PORTB with
          frequency equal to ESC_FREQUENCY_HZ Hertz all over the time,
          Pulse Width equal to SIGNAL_MAX_US microseconds for inital TIME_MAX_SECONDS seconds,
